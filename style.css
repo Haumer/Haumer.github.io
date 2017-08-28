@@ -115,29 +115,59 @@ a:hover {
 }
 #nucleo:hover h2{
   color: rgb(118, 109, 204);
-  opacity: 0.9;
+  opacity: 0.8;
+  -moz-transition: all 0.2s ease-out;  /* FF4+ */
+  -o-transition: all 0.2s ease-out;  /* Opera 10.5+ */
+  -webkit-transition: all 0.2s ease-out;  /* Saf3.2+, Chrome */
+  -ms-transition: all 0.2s ease-out;  /* IE10? */
+  transition: all 0.7s ease-out;  
 }
 #wufoo:hover h2{
   color: rgb(200, 58, 36);
-  opacity: 0.9;
+  opacity: 0.8;
+  -moz-transition: all 0.2s ease-out;  /* FF4+ */
+  -o-transition: all 0.2s ease-out;  /* Opera 10.5+ */
+  -webkit-transition: all 0.2s ease-out;  /* Saf3.2+, Chrome */
+  -ms-transition: all 0.2s ease-out;  /* IE10? */
+  transition: all 0.7s ease-out;  
+
 }
 #trello:hover h2{
   color: #1e88e5;
-  opacity: 0.9;
+  opacity: 0.8;
+  -moz-transition: all 0.2s ease-out;  /* FF4+ */
+  -o-transition: all 0.2s ease-out;  /* Opera 10.5+ */
+  -webkit-transition: all 0.2s ease-out;  /* Saf3.2+, Chrome */
+  -ms-transition: all 0.2s ease-out;  /* IE10? */
+  transition: all 0.7s ease-out;  
 }
 #zapier:hover h2{
   color: rgb(255, 74, 0);
-  opacity: 0.9;
+  opacity: 0.8;
+  -moz-transition: all 0.2s ease-out;  /* FF4+ */
+  -o-transition: all 0.2s ease-out;  /* Opera 10.5+ */
+  -webkit-transition: all 0.2s ease-out;  /* Saf3.2+, Chrome */
+  -ms-transition: all 0.2s ease-out;  /* IE10? */
+  transition: all 0.7s ease-out;  
 }
 #unsplash:hover h2{
   color: rgb(26, 26, 26);
-  opacity: 0.9;
+  opacity: 0.8;
+  -moz-transition: all 0.2s ease-out;  /* FF4+ */
+  -o-transition: all 0.2s ease-out;  /* Opera 10.5+ */
+  -webkit-transition: all 0.2s ease-out;  /* Saf3.2+, Chrome */
+  -ms-transition: all 0.2s ease-out;  /* IE10? */
+  transition: all 0.7s ease-out;  
 }
 #github:hover h2{
   color: rgb(23, 21, 21);
-  opacity: 0.9;
+  opacity: 0.8;
+  -moz-transition: all 0.2s ease-out;  /* FF4+ */
+  -o-transition: all 0.2s ease-out;  /* Opera 10.5+ */
+  -webkit-transition: all 0.2s ease-out;  /* Saf3.2+, Chrome */
+  -ms-transition: all 0.2s ease-out;  /* IE10? */
+  transition: all 0.7s ease-out;  
 }
-
 /*testing area */
 
 
