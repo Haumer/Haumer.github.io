@@ -64,6 +64,9 @@ a:hover {
 #footer a:hover {
   color: grey;
 }
+.container {
+  width: 1280px;
+}
 .card a {
 	color: black;
   position: relative;
