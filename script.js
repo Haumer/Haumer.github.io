@@ -10,7 +10,7 @@ function closest (el, clazz, stopClazz) {
 
 const dnd = (element, options) => {
   // find all dragable elements
-  var draggableElements = element.querySelector("[draggable=true]")
+  var draggableElements = element.querySelector("[draggable=true]")[0]
   var activeDragElement;
   var placeholderElement;
   var startElementRect;
