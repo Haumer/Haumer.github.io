@@ -92,7 +92,7 @@ const dnd = (element, options) => {
      placeholderElement = element.querySelector('.tpl-placeholder');
   });
 };
-
+dnd(document.querySelector(".playground"));
 
 
 
