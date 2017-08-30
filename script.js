@@ -92,4 +92,4 @@ const dnd = (element, options) => {
      placeholderElement = element.querySelector('.tpl-placeholder');
   });
 };
-dnd(document.querySelector(".playground"));
+document.addEventListener('DOMContentLoaded',()=>dnd(document.querySelector(".playground")));
