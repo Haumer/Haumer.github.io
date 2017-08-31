@@ -22,6 +22,7 @@ a:hover {
 
 
 
+
  /*Custom Design */
 
 #banner {
@@ -86,7 +87,7 @@ a:hover {
   display: block;
  }
 .card img:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 .card:hover {
   box-shadow: 0 0 18px 0 rgba(0,0,0,.1), 0 0 36px 0 rgba(0,0,0,.15), 0 36px 36px 0 rgba(0,0,0,.2);
@@ -97,11 +98,12 @@ a:hover {
   width: 175px;
   border-style: solid;
   border-color: rgba(125, 125, 125, 0.1);
-  border-radius: 20px;
-  position: center;
+  border-radius: 5px;
   margin-bottom: 40px;
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   padding-top: 10px;
+  padding-bottom: 30px;
   box-shadow: 0 0 2px 0 rgba(0,0,0,.15), 0 0 4px 0 rgba(0,0,0,.2), 0 12px 12px 0 rgba(0,0,0,.15);
   transition: box-shadow .4s ease-in-out; 
  }
@@ -121,7 +123,7 @@ a:hover {
   opacity: 0.8;
   -moz-transition: all 0.7s ease-out;  /* FF4+ */
   -o-transition: all 0.7s ease-out;  /* Opera 10.5+ */
-  -webkit-transition: all 072s ease-out;  /* Saf3.2+, Chrome */
+  -webkit-transition: all 0.7s ease-out;  /* Saf3.2+, Chrome */
   -ms-transition: all 0.7s ease-out;  /* IE10? */
   transition: all 0.7s ease-out;  
 }
@@ -129,14 +131,14 @@ a:hover {
   color: rgb(200, 58, 36);
   opacity: 0.8;
   -moz-transition: all 0.7s ease-out;  /* FF4+ */
-  -o-transition: all 072s ease-out;  /* Opera 10.5+ */
+  -o-transition: all 0.7s ease-out;  /* Opera 10.5+ */
   -webkit-transition: all 0.7s ease-out;  /* Saf3.2+, Chrome */
   -ms-transition: all 0.7s ease-out;  /* IE10? */
   transition: all 0.7s ease-out;  
 
 }
 #trello:hover h2{
-  color: #1e88e5;
+  color: rgb(0, 122, 195);
   opacity: 0.8;
   -moz-transition: all 0.7s ease-out;  /* FF4+ */
   -o-transition: all 0.7s ease-out;  /* Opera 10.5+ */
@@ -171,11 +173,30 @@ a:hover {
   -ms-transition: all 0.7s ease-out;  /* IE10? */
   transition: all 0.7s ease-out;  
 }
+#codepen:hover h2{
+  color: black;
+  opacity: 0.8;
+  -moz-transition: all 0.7s ease-out;  /* FF4+ */
+  -o-transition: all 0.7s ease-out;  /* Opera 10.5+ */
+  -webkit-transition: all 0.7s ease-out;  /* Saf3.2+, Chrome */
+  -ms-transition: all 0.7s ease-out;  /* IE10? */
+  transition: all 0.7s ease-out;  
+}
+#heroku:hover h2{
+  color: rgb(65, 0, 148);
+  opacity: 0.8;
+  -moz-transition: all 0.7s ease-out;  /* FF4+ */
+  -o-transition: all 0.7s ease-out;  /* Opera 10.5+ */
+  -webkit-transition: all 0.7s ease-out;  /* Saf3.2+, Chrome */
+  -ms-transition: all 0.7s ease-out;  /* IE10? */
+  transition: all 0.7s ease-out;  
+}
+
 /*testing area */
 
 
 .playground {
-  padding: 4rem 4rem;
+  padding: 1rem 1rem;
 }
 .playground::after {
   clear: both;
